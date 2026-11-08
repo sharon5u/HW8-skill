@@ -32,17 +32,6 @@ CODE_ROOT = "/ABSOLUTE/PATH/project-to-explain"
 
 Check registration and restart the client if necessary. Ask: “Use local-code-files to find calculator.py, then use $plain-english-explain to explain it.” Confirm actual tool calls in the transcript.
 
-## Personal motivation and evidence
-
-TODO: Write your motivation and quote relevant past prompt logs. Identify which local files you want the MCP to access and why this interface helps your workflow.
-
-## Verification
-
-The skill structural validator passed. A real MCP stdio test passed for tool discovery, filename search, line-numbered reads, pagination, missing files, input limits, binary rejection, and path-boundary rejection. Client registration and actual explanation quality remain unverified.
-
-## Verification in your client
-
-TODO: Record the client/model, actual tool calls, and observed explanation. Local automated verification does not prove client registration or skill discovery.
 
 ## AI use
 For this homework, I mainly used AI to first explain how skills and MCP server interact before starting the assignment. I then asked AI to draft the rules for the skill and then do personalized edits by my self. I specifically used AI to help me understand why I had two skill.md files and later understood that they serve different purposes, one for the main skill and other for the checker. 
